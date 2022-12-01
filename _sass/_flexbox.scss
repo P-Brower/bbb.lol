@@ -13,4 +13,8 @@
   .flex-container {
     flex-direction: column;
   }
+  img,
+  iframe {
+    max-width: 75%;
+  }
 }
