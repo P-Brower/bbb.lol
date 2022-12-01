@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.grid-container {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+} 
