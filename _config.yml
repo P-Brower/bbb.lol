@@ -31,8 +31,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Ops Tech
-  email: support@jstart.org
+  name: The Peanut Gallery
 
 # Custom vars
 version: 3.0.0
