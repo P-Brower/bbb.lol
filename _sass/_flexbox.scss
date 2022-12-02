@@ -9,15 +9,21 @@
 }
 
 /* Medium devices (landscape tablets, 768px and under) */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
   }
+
+  .hero {
+    padding-left: var(--spacer);
+    padding-right: var(--spacer);
+  }
   img,
   iframe {
-    max-width: 75%;
+    max-width: 90%;
+    max-height: 300px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: var(--title-font-size-mobile);
   }
 }
