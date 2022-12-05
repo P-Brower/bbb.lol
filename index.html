@@ -95,16 +95,9 @@ title: Home
   <div id="last" class="hero pink img-hero">
     <h1 id="danny">The Danny</h1>
     <div class="slider">
-      <img src="assets/danny/MicrosoftTeams-image (2).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (3).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (4).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (5).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (6).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (7).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (8).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (9).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (10).png" alt="" />
-      <img src="assets/danny/MicrosoftTeams-image (11).png" alt="" />
+      {% assign image_files = site.static_files | where: "image", true %} {% for
+      myimage in image_files %} <img src="{{ myimage.path }}" alt="" /> {%
+      endfor %}
     </div>
   </div>
 </div>
