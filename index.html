@@ -96,8 +96,13 @@ title: Home
     <h1 id="danny">The Danny</h1>
     <div class="slider">
       {% assign image_files = site.static_files | where: "image", true %} {% for
-      myimage in image_files %} <img src="{{ myimage.path }}" alt="" /> {%
-      endfor %}
+      myimage in image_files %}
+      <img
+        src="{{ myimage.path }}"
+        alt="{{ myimage.basename }}"
+        title="{{ myimage.basename }}"
+      />
+      {% endfor %}
     </div>
   </div>
 </div>
