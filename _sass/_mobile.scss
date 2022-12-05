@@ -1,0 +1,22 @@
+/* Medium devices */
+@media only screen and (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .hero {
+    padding-left: var(--spacer);
+    padding-right: var(--spacer);
+  }
+  img,
+  iframe {
+    max-width: 90%;
+    max-height: 300px;
+  }
+  h1 {
+    font-size: var(--title-font-size-mobile);
+  }
+  .masthead-title a {
+    font-size: calc(var(--mast-font-size) - 3rem);
+  }
+}

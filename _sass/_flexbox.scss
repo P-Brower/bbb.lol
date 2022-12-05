@@ -7,23 +7,3 @@
   display: flex;
   flex-direction: column;
 }
-
-/* Medium devices (landscape tablets, 768px and under) */
-@media only screen and (max-width: 1200px) {
-  .flex-container {
-    flex-direction: column;
-  }
-
-  .hero {
-    padding-left: var(--spacer);
-    padding-right: var(--spacer);
-  }
-  img,
-  iframe {
-    max-width: 90%;
-    max-height: 300px;
-  }
-  h1 {
-    font-size: var(--title-font-size-mobile);
-  }
-}
