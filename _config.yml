@@ -6,6 +6,12 @@ paginate: 1
 baseurl: ""
 permalink: pretty
 
+defaults:
+  - scope:
+      path: "assets/danny"
+    values:
+      image: true
+
 # Optimize Jekyll
 exclude:
   - .editorconfig
