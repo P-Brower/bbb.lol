@@ -21,7 +21,7 @@
   a {
     color: inherit;
     text-decoration: none;
-    font-size: 5rem;
+    font-size: var(--mast-font-size);
     font-family: var(--title-font);
   }
 
