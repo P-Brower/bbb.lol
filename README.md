@@ -12,4 +12,4 @@ We're talking about:
 
 Because we're nuts, about butts.
 
-![Peanut Gallery](_site/assets/ops-tech.png)
+![Peanut Gallery](/assets/ops-tech.png)
