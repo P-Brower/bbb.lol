@@ -106,10 +106,23 @@ div.yellow {
   color: var(--pink);
 }
 
+div.pink {
+  background-color: var(--pink);
+}
+
 // Cursor
 
 body {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍑</text></svg>")
       16 0,
     auto;
+}
+
+// Slick Carousel
+.slick-slide {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  object-fit: contain;
+  height: 500px;
+  max-height: 75vh;
 }
