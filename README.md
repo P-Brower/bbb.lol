@@ -4,7 +4,7 @@ We used software that's typically reserved for professionals to bring you the be
 
 We're talking about:
 
-- Butts per season(BPS)
+- Butts per season (BPS)
 - Butts per director (BPD)
 - Butts per character (BPC)
 - Butts per writer (BPW)
