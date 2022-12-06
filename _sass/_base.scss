@@ -90,6 +90,11 @@ div.blue {
 div.yellow {
   background-color: var(--yellow);
 }
+
+* .yellow {
+  color: var(--yellow);
+}
+
 * .center {
   margin-left: auto;
   margin-right: auto;
