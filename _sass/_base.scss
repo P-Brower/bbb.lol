@@ -46,6 +46,7 @@ img {
   //max-width: 100%;
   margin-bottom: var(--spacer);
   border-radius: var(--border-radius);
+  border: 10px solid var(--yellow);
 }
 
 table {
@@ -108,6 +109,13 @@ div.yellow {
 
 div.pink {
   background-color: var(--pink);
+}
+
+#butt-song {
+  border: 10px solid var(--pink);
+}
+#tina-butts {
+  border: 10px solid var(--white);
 }
 
 // Cursor
