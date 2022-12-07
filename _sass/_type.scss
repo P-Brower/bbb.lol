@@ -144,22 +144,24 @@ a[href^="#fnref:"] {
   margin-top: 0px;
   padding-bottom: 10px;
 }
-.masthead-title {
-  color: var(--title-color);
-}
 
 #reason {
   color: var(--vivid-red);
+  text-shadow: -3px 3px black;
 }
 #method {
   color: var(--gray-000);
+  text-shadow: -3px 3px var(--gray-600);
 }
 #results {
   color: var(--vivid-red);
+  text-shadow: -3px 3px black;
 }
 #tina {
   color: var(--gray-000);
+  text-shadow: -3px 3px var(--gray-600);
 }
 #danny {
   color: var(--gray-000);
+  text-shadow: -3px 3px var(--gray-600);
 }

@@ -25,6 +25,7 @@ body {
 .masthead-title::before {
   content: "🍔";
   font-size: var(--mast-font-size);
+  text-shadow: -5px 5px black;
 }
 // No `:visited` state is required by default (browsers will use `a`)
 a {
@@ -77,6 +78,10 @@ mark {
   padding: 0.15rem;
   background-color: var(--yellow-100);
   border-radius: 0.125rem;
+}
+
+.shadow {
+  box-shadow: 5px 5px 20px var(--gray-800);
 }
 
 div.green {
@@ -139,4 +144,5 @@ body {
   height: 500px;
   max-height: 75vh;
   border: 10px solid var(--bobs-blue);
+  box-shadow: 3px 3px 5px var(--gray-600);
 }
