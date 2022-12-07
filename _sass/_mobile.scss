@@ -20,3 +20,8 @@
     font-size: calc(var(--mast-font-size) - 3rem);
   }
 }
+@media only screen and (max-width: 800px) {
+  .slick-slide {
+    height: 300px;
+  }
+}
