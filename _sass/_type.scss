@@ -165,3 +165,14 @@ a[href^="#fnref:"] {
   color: var(--gray-000);
   text-shadow: -3px 3px var(--gray-600);
 }
+
+#reason:hover,
+#results:hover {
+  text-shadow: 3px -3px black;
+}
+
+#method:hover,
+#tina:hover,
+#danny:hover {
+  text-shadow: 3px -3px var(--gray-600);
+}

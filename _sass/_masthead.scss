@@ -26,7 +26,9 @@
     font-size: var(--mast-font-size);
     font-family: var(--title-font);
   }
-
+  a:hover {
+    text-shadow: 5px -5px black;
+  }
   small {
     font-weight: 100;
     opacity: 0.5;
