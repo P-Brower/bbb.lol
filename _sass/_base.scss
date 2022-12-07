@@ -7,7 +7,7 @@
 }
 main {
   border-style: none solid;
-  border-color: var(--vivid-red);
+  border-color: var(--red);
   border-width: 15px;
 }
 
@@ -84,7 +84,7 @@ div.green {
 }
 
 div.blue {
-  background-color: var(--bobs-blue);
+  background-color: var(--blue);
 }
 
 div.yellow {
@@ -101,11 +101,11 @@ div.yellow {
   text-align: center;
 }
 
-* .vivid-red {
-  color: var(--vivid-red);
+* .red {
+  color: var(--red);
 }
-* .bobs-blue {
-  color: var(--bobs-blue);
+* .blue {
+  color: var(--blue);
 }
 
 * .pink {
@@ -138,6 +138,6 @@ body {
   object-fit: contain;
   height: 500px;
   max-height: 75vh;
-  border: 10px solid var(--bobs-blue);
+  border: 10px solid var(--blue);
   box-shadow: 3px 3px 5px var(--gray-600);
 }
