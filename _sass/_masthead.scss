@@ -19,20 +19,20 @@
   margin-left: auto;
   margin-right: auto;
 
-  a::before {
+  strong::before {
     content: "🍔";
     font-size: var(--mast-font-size);
     text-shadow: -5px 5px black;
   }
 
-  a {
+  strong {
     color: inherit;
     text-decoration: none;
     text-shadow: -5px 5px black;
     font-size: var(--mast-font-size);
     font-family: var(--title-font);
   }
-  a:hover {
+  strong:hover {
     text-shadow: 5px -5px black;
   }
   small {
