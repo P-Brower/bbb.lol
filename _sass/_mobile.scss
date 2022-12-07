@@ -16,7 +16,7 @@
   h1 {
     font-size: var(--title-font-size-mobile);
   }
-  .masthead-title a {
+  .masthead-title strong {
     font-size: calc(var(--mast-font-size) - 3rem);
   }
 }
