@@ -8,7 +8,7 @@ We're talking about:
 - Butts per director (BPD)
 - Butts per character (BPC)
 - Butts per writer (BPW)
-- Overall Butt Tracker
+- Total butt count (TBC)
 
 Because we're nuts, about butts.
 
