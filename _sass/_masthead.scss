@@ -19,6 +19,12 @@
   margin-left: auto;
   margin-right: auto;
 
+  a::before {
+    content: "🍔";
+    font-size: var(--mast-font-size);
+    text-shadow: -5px 5px black;
+  }
+
   a {
     color: inherit;
     text-decoration: none;
