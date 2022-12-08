@@ -1,4 +1,10 @@
 /* Medium devices */
+
+@media only screen and (max-width: 1400px) {
+  .masthead-title strong {
+    font-size: calc(var(--mast-font-size) - 2rem);
+  }
+}
 @media only screen and (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
