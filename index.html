@@ -3,134 +3,137 @@ layout: default
 title: Home
 ---
 
-<a id="ribbon" href="https://zebrayouth.org/" target="_blank">
-  <img
+<div class="pink shadow" id="ribbon">
+  <a
     alt="Support Florida's LGBTQ+ Youth"
     title="Support Florida's LGBTQ+ Youth"
-    src="/assets/clickme.png"
-    width="170"
-    height="170"
-  />
-</a>
-<div class="flex-column">
-  <div class="hero yellow">
-    <h1 id="reason">The Reason</h1>
-    <div class="flex-container">
-      <div class="center">
-        <h2 class="pink" style="font-family: Comic Sans MS; margin: 0 1rem">
-          To wish our beloved Danny Summerlin a Happy Birthday, we’ve compiled a
-          list of all the “butts” mentioned in Bob’s Burgers
-        </h2>
+    href="https://zebrayouth.org/"
+    target="_blank"
+    style="color:white"
+  >
+    Support Florida's</br>LGBTQ+ Youth
+  </a>
+</div>
+  <div class="flex-column">
+    <div class="hero yellow">
+      <h1 id="reason">The Reason</h1>
+      <div class="flex-container">
+        <div class="center">
+          <h2 class="pink" style="font-family: Comic Sans MS; margin: 0 1rem">
+            To wish our beloved Danny Summerlin a Happy Birthday, we’ve compiled
+            a list of all the “butts” mentioned in Bob’s Burgers
+          </h2>
+        </div>
+        <div class="center">
+          <iframe
+            id="butt-song"
+            class="shadow"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3f3RUzl86G8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
+    </div>
+    <div class="hero green">
+      <h1 id="method">The Methodology</h1>
+      <div class="flex-container">
+        <div>
+          <h2>
+            Katie ran a
+            <a
+              style="color: red"
+              href="https://github.com/Xonshiz/Hulusubs_dl"
+              target="_blank"
+              >python script</a
+            >
+            that went through the subtitles and found every instance of “butt”
+            that is mentioned in Bob’s Burgers. It is with a group effort that
+            we have timestamped every instance and who said it.
+          </h2>
+          <br />
+          <strong>
+            <p>
+              With that as our baseline, Carolyn has created the following Power
+              BI report to show:
+            </p>
+            <ul>
+              <li>Butts per season (BPS)</li>
+              <li>Butts per director (BPD)</li>
+              <li>Butts per character (BPC)</li>
+              <li>Butts per writer (BPW)</li>
+              <li>Total butt count (TBC)</li>
+            </ul>
+          </strong>
+        </div>
+        <div class="yellow shadow">
+          <img
+            class="center"
+            src="assets/tina-butts.png"
+            alt="Tina's Nuts 4 Butts"
+          />
+          <h3 class="red center quote">
+            “The hand wants what the hand wants.<br />
+            I can’t tell where your back ends and your butt begins.”<br />
+            -Tina Belcher
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="hero yellow">
+      <h1 id="results">The Results</h1>
       <div class="center">
         <iframe
-          id="butt-song"
-          class="shadow"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/3f3RUzl86G8"
-          title="YouTube video player"
+          id="report"
+          title="Bob's Butts - Butt Tracker"
+          width="85%"
+          height="800px"
+          src="https://app.powerbi.com/view?r=eyJrIjoiMjk1NGE4MWMtMDNiZC00MmJiLTkwYzItOTQwYjU5MWE2ZDVjIiwidCI6IjJkYzJhZDY2LWQ2YWQtNDYzZi1iMTRkLTQyZTMzMjI0YmE1YSIsImMiOjN9"
           frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowfullscreen="true"
         ></iframe>
       </div>
     </div>
-  </div>
-  <div class="hero green">
-    <h1 id="method">The Methodology</h1>
-    <div class="flex-container">
-      <div>
-        <h2>
-          Katie ran a
-          <a
-            style="color: red"
-            href="https://github.com/Xonshiz/Hulusubs_dl"
-            target="_blank"
-            >python script</a
-          >
-          that went through the subtitles and found every instance of “butt”
-          that is mentioned in Bob’s Burgers. It is with a group effort that we
-          have timestamped every instance and who said it.
-        </h2>
-        <br />
-        <strong>
-          <p>
-            With that as our baseline, Carolyn has created the following Power
-            BI report to show:
-          </p>
-          <ul>
-            <li>Butts per season (BPS)</li>
-            <li>Butts per director (BPD)</li>
-            <li>Butts per character (BPC)</li>
-            <li>Butts per writer (BPW)</li>
-            <li>Total butt count (TBC)</li>
-          </ul>
-        </strong>
+    <div class="hero blue">
+      <h1 id="tina">The Inspiration</h1>
+      <div class="center">
+        <iframe
+          id="tina-butts"
+          class="shadow"
+          width="620"
+          height="349"
+          src="https://www.youtube.com/embed/IBO8WF2vja4"
+          title="Every Time Tina Says Butt | Bob's Burgers"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen="true"
+        ></iframe>
       </div>
-      <div class="yellow shadow">
+    </div>
+    <div id="last" class="hero pink img-hero" onload="internal()">
+      <h1 id="danny">The Danny</h1>
+      <div class="slider">
+        {% assign image_files = site.static_files | where: "image", true %} {%
+        for myimage in image_files %}
         <img
-          class="center"
-          src="assets/tina-butts.png"
-          alt="Tina's Nuts 4 Butts"
+          src="{{ myimage.path }}"
+          alt="{{ myimage.basename }}"
+          title="{{ myimage.basename }}"
         />
-        <h3 class="red center quote">
-          “The hand wants what the hand wants.<br />
-          I can’t tell where your back ends and your butt begins.”<br />
-          -Tina Belcher
-        </h3>
+        {% endfor %}
       </div>
     </div>
-  </div>
-  <div class="hero yellow">
-    <h1 id="results">The Results</h1>
-    <div class="center">
-      <iframe
-        id="report"
-        title="Bob's Butts - Butt Tracker"
-        width="85%"
-        height="800px"
-        src="https://app.powerbi.com/view?r=eyJrIjoiMjk1NGE4MWMtMDNiZC00MmJiLTkwYzItOTQwYjU5MWE2ZDVjIiwidCI6IjJkYzJhZDY2LWQ2YWQtNDYzZi1iMTRkLTQyZTMzMjI0YmE1YSIsImMiOjN9"
-        frameborder="0"
-        allowfullscreen="true"
-      ></iframe>
-    </div>
-  </div>
-  <div class="hero blue">
-    <h1 id="tina">The Inspiration</h1>
-    <div class="center">
-      <iframe
-        id="tina-butts"
-        class="shadow"
-        width="620"
-        height="349"
-        src="https://www.youtube.com/embed/IBO8WF2vja4"
-        title="Every Time Tina Says Butt | Bob's Burgers"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen="true"
-      ></iframe>
-    </div>
-  </div>
-  <div id="last" class="hero pink img-hero" onload="internal()">
-    <h1 id="danny">The Danny</h1>
-    <div class="slider">
-      {% assign image_files = site.static_files | where: "image", true %} {% for
-      myimage in image_files %}
-      <img
-        src="{{ myimage.path }}"
-        alt="{{ myimage.basename }}"
-        title="{{ myimage.basename }}"
-      />
-      {% endfor %}
-    </div>
-  </div>
-  <script>
-    function internal() {
-      if (window.location.href.includes("#internal")) {
-        var foo = document.getElementsByClassName("img-hero");
-        foo[0].style.display = "block";
+    <script>
+      function internal() {
+        if (window.location.href.includes("#internal")) {
+          var foo = document.getElementsByClassName("img-hero");
+          foo[0].style.display = "block";
+        }
       }
-    }
-  </script>
-</div>
+    </script>
+  </div>
+</a>
