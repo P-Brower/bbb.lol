@@ -46,4 +46,9 @@ footer {
   width: 300px;
   padding: 0.25rem;
   font-size: 13px;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
 }
