@@ -9,6 +9,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+//Flexbox Settings
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
 footer {
   padding-top: var(--spacer-3);
