@@ -35,3 +35,12 @@ footer {
 #last {
   padding-bottom: var(--spacer-10);
 }
+
+#ribbon {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  cursor: pointer;
+  border: 0px !important;
+}

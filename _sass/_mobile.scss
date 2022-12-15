@@ -25,6 +25,10 @@
   .masthead-title strong {
     font-size: calc(var(--mast-font-size) - 3rem);
   }
+  #ribbon {
+    position: fixed;
+    right: -1rem;
+  }
 }
 @media only screen and (max-width: 800px) {
   .slick-slide {
