@@ -37,7 +37,7 @@ a {
   }
 }
 
-div > img {
+img {
   display: block;
   //max-width: 100%;
   margin-bottom: var(--spacer);
@@ -121,6 +121,9 @@ div.pink {
 }
 #tina-butts {
   border: 10px solid var(--white);
+}
+#cameo {
+  border: 10px solid var(--pink);
 }
 
 // Cursor

@@ -148,42 +148,42 @@ a[href^="#fnref:"] {
 #reason {
   color: var(--red);
   text-shadow: -3px 3px black;
-  :hover {
+  &:hover {
     text-shadow: 3px -3px black;
   }
 }
 #method {
   color: var(--gray-000);
   text-shadow: -3px 3px var(--gray-600);
-  :hover {
+  &:hover {
     text-shadow: 3px -3px var(--gray-600);
   }
 }
 #results {
   color: var(--red);
   text-shadow: -3px 3px black;
-  :hover {
+  &:hover {
     text-shadow: 3px -3px black;
   }
 }
 #tina {
   color: var(--gray-000);
   text-shadow: -3px 3px var(--gray-600);
-  :hover {
+  &:hover {
     text-shadow: 3px -3px var(--gray-600);
   }
 }
 #danny {
   color: var(--gray-000);
   text-shadow: -3px 3px var(--gray-600);
-  :hover {
+  &:hover {
     text-shadow: 3px -3px var(--gray-600);
   }
 }
 #cherry {
   color: var(--pink);
   text-shadow: -3px 3px var(--gray-000);
-  :hover {
+  &:hover {
     text-shadow: 3px -3px var(--gray-000);
   }
 }
