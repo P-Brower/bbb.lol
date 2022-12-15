@@ -74,7 +74,10 @@
     </script>
     <script type="text/javascript">
       function internal() {
-        if (window.location.href.includes("#internal")) {
+        if (
+          window.location.href.includes("#internal") ||
+          window.location.href.includes("#friends")
+        ) {
           var foo = document.getElementsByClassName("img-hero");
           foo[0].style.display = "block";
         }
