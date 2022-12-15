@@ -11,5 +11,3 @@ We're talking about:
 - Total butt count (TBC)
 
 Because we're nuts, about butts.
-
-![Peanut Gallery](/assets/ops-tech.png)
