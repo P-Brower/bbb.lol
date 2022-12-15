@@ -72,5 +72,14 @@
     <script type="text/javascript">
       fartscroll(900);
     </script>
+    <script type="text/javascript">
+      function internal() {
+        if (window.location.href.includes("#internal")) {
+          var foo = document.getElementsByClassName("img-hero");
+          foo[0].style.display = "block";
+        }
+      }
+      internal();
+    </script>
   </body>
 </html>

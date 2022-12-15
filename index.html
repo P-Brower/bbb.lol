@@ -103,7 +103,7 @@ title: Home
       ></iframe>
     </div>
   </div>
-  <div id="last" class="hero pink img-hero">
+  <div id="last" class="hero pink img-hero" onload="internal()">
     <h1 id="danny">The Danny</h1>
     <div class="slider">
       {% assign image_files = site.static_files | where: "image", true %} {% for
@@ -116,4 +116,12 @@ title: Home
       {% endfor %}
     </div>
   </div>
+  <script>
+    function internal() {
+      if (window.location.href.includes("#internal")) {
+        var foo = document.getElementsByClassName("img-hero");
+        foo[0].style.display = "block";
+      }
+    }
+  </script>
 </div>
